@@ -1,14 +1,20 @@
-# Assignment 2: Semantic Analysis via Text Classification
+# Semantic Analysis via Text Classification
 
-The following results were compiled after downsampling the original Amazon Reviews dataset to balance the number of positive and negative labels as well as further sampling 15% of the data for easier computation. This amounts to 19,688 training and 4,923 testing examples. The code was executed using Google Colab; the link to this assignment can be found [here](https://drive.google.com/file/d/1u-hcDF9UzQVQbDrhStBg1McvNDXL8g6n/view?usp=sharing).
+In this exercise, text classification problems were re-investigated using content embedding techniques such as Word2Vec and BERT models. A review sentiment classification task was implemented using the Amazon Fine Food Reviews dataset, with a focus on a 10-20% sample. The steps included installing necessary packages, performing exploratory data analysis, creating labels based on review scores, and balancing the dataset. Various models were implemented: 
+* TFIDF-based classifier
+* Word2Vec-based classifier
+* Pre-trained BERT classifier
+* Fine-tuned BERT classifier
+* BERT classifier with LoRA.
+
+Finally, the results of these models were analyzed and compared.
+
+The following results were compiled after downsampling the original Amazon Reviews dataset to balance the number of positive and negative labels as well as further sampling 15% of the data for easier computation. This amounts to 19,688 training and 4,923 testing examples. The code was executed using Google Colab; the link to the notebook can be found [here](https://drive.google.com/file/d/1u-hcDF9UzQVQbDrhStBg1McvNDXL8g6n/view?usp=sharing).
 
 The code was executed in batches due to the timeout limits on Google Colab, as it was impossible to get the entire notebook to run without the runtime disconnecting at some point.
 
-## Tasks 1 - 5
-
-Tasks 1-5 can be found in the accompanying `.ipynb` Notebook file and/or the Google Colab link above.
-
-## Task 6 – Results Analysis
+## Results Analysis
+The implementation of each model alongside its individual results can be found in the accompanying .ipynb file.
 
 ### Results
 
