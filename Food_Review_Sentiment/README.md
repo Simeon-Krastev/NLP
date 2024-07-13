@@ -17,7 +17,7 @@ Using the pre-trained BERT model “bert-large-uncased-whole-word-masking-finetu
   "NoAns_total": 5945
 }
 ```
-The implementation for this pre-trained model can be found in BERT_SQuAD_Model.py. A sliding window approach was used to deal with inputs tokenized into more than 512 tokens, as BERT cannot handle longer inputs than this. A custom implementation of a (BERT-based) question-answering model with the capacity to detect unanswerable questions can be found in Task 3.
+The implementation for this pre-trained model can be found in BERT_SQuAD_Model.py. A sliding window approach was used to deal with inputs tokenized into more than 512 tokens, as BERT cannot handle longer inputs than this. A custom implementation of a (BERT-based) question-answering model with the capacity to detect unanswerable questions can be found in the section "Design Implementation".
 
 ## Unanswerable Question Detection
 ### Hypothesis
